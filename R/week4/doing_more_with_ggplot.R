@@ -15,7 +15,7 @@ ggplot(data = penguins) +
 ggplot(data = penguins) + 
   geom_smooth(mapping = aes(x = flipper_length_mm, y = body_mass_g, linetype=species)) + 
   geom_jitter(mapping = aes(x = flipper_length_mm, y = body_mass_g))
-colnames(diamonds)
+
 ggplot(data=diamonds) +
   geom_bar(mapping = aes(x=cut))
 
